@@ -56,11 +56,11 @@ class CurrentAcc extends bankAccount{                       //child class 2
     }
 }
 
-public class Ass2_3 {                                   //mainApp class
+public class Assg2_3 {                                   //mainApp class
     public static void main(String[] args) {
 
-        bankAccount s1= new SavingsAcc(1001,"Rahul",10000);
-        bankAccount c1= new CurrentAcc(1002,"Remya",25000);
+        bankAccount s1= new SavingsAcc(1001,"Kishore",10000);
+        bankAccount c1= new CurrentAcc(1002,"Ramya",25000);
         System.out.println("balance of s1 = : " + s1.getBalance());
         System.out.println("balance of c1 = : " + c1.getBalance());
         System.out.println("total cash in the bank = : " +(s1.getBalance()+c1.getBalance()));
