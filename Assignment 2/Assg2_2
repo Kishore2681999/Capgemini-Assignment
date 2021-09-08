@@ -49,16 +49,16 @@ class Labour extends Employee{
     }
 }
 
-public class Ass2_2 {
+public class Assg2_2 {
     public static void main(String[] args) {
 
-        Employee E1 = new Employee(1001,"Rahul",20000);
+        Employee E1 = new Employee(1001,"Kishore",20000);
         System.out.println("Salary is "+E1.getSalary());
 
-        //Manager M1 = new Employee(1002,"Veena",25000);
-        //Employee M2 = new Manager(1003,"zain",27000);
-        Manager M1 = new Manager(1005,"Avan",25000,1000);
-        Labour L1 = new Labour(1006,"sreya",20000,5);
+        //Manager M1 = new Employee(1002,"Ramya",25000);
+        //Employee M2 = new Manager(1003,"Ambika",27000);
+        Manager M1 = new Manager(1005,"Nithesh",25000,1000);
+        Labour L1 = new Labour(1006,"Balaji",20000,5);
         System.out.println("M1 Salary is "+M1.getSalary());
         System.out.println("L1 Salary is "+L1.getSalary());
 
