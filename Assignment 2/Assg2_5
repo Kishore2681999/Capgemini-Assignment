@@ -24,7 +24,7 @@ class circle extends shapes{
         System.out.println("drawing a circle");
     }
 }
-public class Ass2_5 {
+public class Assg2_5 {
     public static void main(String[] args) {
 
         shapes rectangle = new Rectangle();
