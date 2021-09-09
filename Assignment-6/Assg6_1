@@ -1,4 +1,4 @@
-package Assignment_6;
+package Assignment-6;
 import java.util.TreeMap;
 public class Assg6_1 {
 
@@ -7,9 +7,9 @@ public class Assg6_1 {
 			
 			TreeMap<Long,String> map=new TreeMap<Long,String>();
 			
-			map.put((long) 1, "Ayush");
+			map.put((long) 1, "Kishore");
 			map.put((long) 2, "Nitesh");
-			map.put((long) 3, "Sayan");
+			map.put((long) 3, "Ramya");
 			
 			
 			System.out.println("all the keys: "+map.keySet());
