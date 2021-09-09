@@ -46,6 +46,5 @@ public class Assg5_2 {
         }
         //GenericTest<Integer,double> = new GenericTest<>(key,value);
 
-
     }
 }
