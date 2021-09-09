@@ -1,0 +1,19 @@
+
+package Assignment-7;
+
+import java.lang.annotation.*;
+public class Assg7_2 {
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Class<developer>obj=developer.class;
+		Annotation[] annotations = obj.getAnnotations();
+		for(Annotation ant:annotations) {
+			System.out.println(ant);
+		}
+	}
+
+}
